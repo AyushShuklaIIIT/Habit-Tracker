@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { FaSun, FaMoon, FaTrashAlt, FaPlus } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 const getDaysInMonth = (month, year) => {
   const date = new Date(year, month, 1);
